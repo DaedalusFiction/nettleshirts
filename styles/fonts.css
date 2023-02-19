@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+    font-weight: 1 999;
+    font-display: swap;
+}
+@font-face {
+    font-family: "EB Garamond";
+    src: url("/fonts/EBGaramond-VariableFont_wght.ttf") format("truetype");
+    font-weight: 1 999;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Monument";
+    src: url("/fonts/PPMonumentExtended-Regular.otf") format("opentype");
+    font-weight: 1 999;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Neue Montreal";
+    src: url("/fonts/PPNeueMontreal-Thin.otf") format("opentype");
+    font-weight: 1 999;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Satisfy";
+    src: url("/fonts/Satisfy-Regular.ttf") format("truetype");
+    font-weight: 1 999;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Alex Brush";
+    src: url("/fonts/AlexBrush-regular.ttf") format("truetype");
+    font-weight: 1 999;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gruppo";
+    src: url("/fonts/Gruppo-Regular.ttf") format("truetype");
+    font-weight: 1 999;
+    font-display: swap;
+}
+
+.color-test {
+    color: #62ffcb;
+}
