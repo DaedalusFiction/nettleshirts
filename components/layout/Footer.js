@@ -9,101 +9,10 @@ import SocialMediaIcons from "../general/SocialMediaIcons";
 
 const Footer = () => {
     return (
-        <Box
-            className="section"
-            sx={{ background: theme.palette.primary.main }}
-        >
+        <Box sx={{ padding: "1rem 0" }}>
             <Container maxWidth="xl">
-                <Grid container spacing={4}>
-                    <Grid item xs={12} md={6}>
-                        <Box>
-                            <Typography
-                                variant="h4"
-                                sx={{ color: theme.palette.custom.light }}
-                            >
-                                Planning an event?
-                            </Typography>
-                            <Divider
-                                sx={{
-                                    margin: "1rem 0",
-                                    background: theme.palette.custom.lightMuted,
-                                }}
-                            />
-                            <Box sx={{ display: "flex", gap: "1rem" }}>
-                                <Phone
-                                    sx={{
-                                        color: theme.palette.custom.light,
-                                    }}
-                                />
-                                <ExpandingText>
-                                    <a
-                                        style={{
-                                            color: theme.palette.custom.light,
-                                        }}
-                                        href="tel:4347603777"
-                                    >
-                                        (434) 760-3777
-                                    </a>
-                                </ExpandingText>
-                            </Box>
-                            <Box
-                                sx={{
-                                    display: "flex",
-                                    gap: "1rem",
-                                    marginTop: ".5rem",
-                                }}
-                            >
-                                <MailOutline
-                                    sx={{
-                                        color: theme.palette.custom.light,
-                                    }}
-                                />
-                                <ExpandingText>
-                                    <a
-                                        style={{
-                                            color: theme.palette.custom.light,
-                                        }}
-                                        href="mailto:flavorcateringevents@gmail.com"
-                                    >
-                                        flavorcateringevents@gmail.com
-                                    </a>
-                                </ExpandingText>
-                            </Box>
-                        </Box>
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                        <Box
-                            sx={{
-                                display: "flex",
-                                flexDirection: "column",
-                                alignItems: { xs: "start", md: "end" },
-                            }}
-                        >
-                            <Typography
-                                variant="h4"
-                                sx={{
-                                    color: theme.palette.custom.light,
-                                    textAlign: { xs: "start", md: "end" },
-                                }}
-                            >
-                                Want to see more?
-                            </Typography>
-                            <Divider
-                                sx={{
-                                    margin: "1rem 0",
-                                    width: "100%",
-                                    background: theme.palette.custom.lightMuted,
-                                }}
-                            />
-                            <SocialMediaIcons
-                                color={theme.palette.custom.light}
-                            />
-                        </Box>
-                    </Grid>
-                </Grid>
                 <Typography
                     sx={{
-                        color: theme.palette.custom.lightMuted,
                         textAlign: "center",
                         marginTop: "1em",
                     }}

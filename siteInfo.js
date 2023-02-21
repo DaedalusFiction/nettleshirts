@@ -1,6 +1,6 @@
 // 1. Meta
 
-const siteName = "Flavor Exceptional Catering";
+const siteName = "Nettle Shirts Puppet Works";
 
 const hero = {
     imageOne: {
@@ -33,7 +33,10 @@ const greek = {
     imageSix: { url: "/images/stock6.jpg", alt: "stock image" },
 };
 const about = {
-    imageOne: { url: "/images/about1.jpeg", alt: "Danny and Sandy at UVA" },
+    imageOne: {
+        url: "/images/aboutBlue.webp",
+        alt: "Miranda Elliot Rader doing art",
+    },
     imageTwo: { url: "/images/sandy.webp", alt: "Chef Sandy" },
     imageThree: { url: "/images/danny.webp", alt: "Chef Danny" },
 };

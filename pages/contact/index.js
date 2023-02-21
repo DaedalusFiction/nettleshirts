@@ -6,61 +6,69 @@ import { contactConfig } from "../../siteInfo";
 
 const index = () => {
     return (
-        <PageLayout name="Contact Form">
-            <Container maxWidth="lg" className="section">
-                <Grid container spacing={6}>
-                    <Grid item xs={12} md={6}>
-                        <Typography
-                            variant="h6"
-                            sx={{
-                                textAlign: "center",
-                                fontWeight: "600",
-                            }}
-                        >
-                            Get in Touch!
-                        </Typography>
-                        <Typography>
-                            If you&rsquo;re planning a wedding, corporate event,
-                            birthday party, or get-together, or if you&rsquo;re
-                            interested in adding our Greek Life program to your
-                            fraternity or sorority, fill out this form and
-                            we&rsquo;ll be in touch!
-                        </Typography>
-                        <br />
-                        <Grid container spacing={2}>
-                            <Grid item xs={3}>
-                                <Typography>Phone:</Typography>
-                            </Grid>
-                            <Grid item xs={9}>
-                                <Typography>(434) 760-3777</Typography>
-                            </Grid>
-                            <Grid item xs={3}>
-                                <Typography>Email:</Typography>
-                            </Grid>
-                            <Grid item xs={9}>
-                                <Typography>
-                                    flavorcateringevents@gmail.com
-                                </Typography>
-                            </Grid>
-                            <Grid item xs={3}>
-                                <Typography>Address:</Typography>
-                            </Grid>
-                            <Grid item xs={9}>
-                                <Box>
-                                    <Typography>600 Concord Ave.</Typography>
-                                    <Typography>
-                                        Charlottesville, VA 22903
-                                    </Typography>
-                                </Box>
-                            </Grid>
-                        </Grid>
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                        <ContactForm config={contactConfig} />
-                    </Grid>
+        <Container maxWidth="lg" sx={{ padding: "8rem 0" }}>
+            <Grid container spacing={6}>
+                <Grid item xs={12}>
+                    <Typography variant="h1" sx={{ textAlign: "center" }}>
+                        Contact
+                    </Typography>
                 </Grid>
-            </Container>
-        </PageLayout>
+                <Grid item xs={12} md={6}>
+                    <Box
+                        sx={{
+                            display: "flex",
+                            height: "100%",
+                            alignItems: "center",
+                        }}
+                    >
+                        <Box>
+                            <Typography variant="h5" sx={{}}>
+                                Find out about future shows by joining our email
+                                list.
+                            </Typography>
+                            <br />
+                            <Typography>
+                                For other inquiries, including how to donate,
+                                contact Miranda at miranda.elliott.rader at
+                                gmail dot com or at four three four five three
+                                five one nine one zero.
+                            </Typography>
+                            <br />
+                            {/* <Grid container spacing={2}>
+                                    <Grid item xs={3}>
+                                        <Typography>Phone:</Typography>
+                                    </Grid>
+                                    <Grid item xs={9}>
+                                        <Typography>(434) 760-3777</Typography>
+                                    </Grid>
+                                    <Grid item xs={3}>
+                                        <Typography>Email:</Typography>
+                                    </Grid>
+                                    <Grid item xs={9}>
+                                        <Typography>
+                                            flavorcateringevents@gmail.com
+                                        </Typography>
+                                    </Grid>
+                                    <Grid item xs={3}>
+                                        <Typography>Address:</Typography>
+                                    </Grid>
+                                    <Grid item xs={9}>
+                                        <Box>
+                                            <Typography>600 Concord Ave.</Typography>
+                                            <Typography>
+                                                Charlottesville, VA 22903
+                                            </Typography>
+                                        </Box>
+                                    </Grid>
+                                </Grid> */}
+                        </Box>
+                    </Box>
+                </Grid>
+                <Grid item xs={12} md={6}>
+                    <ContactForm config={contactConfig} />
+                </Grid>
+            </Grid>
+        </Container>
     );
 };
 
