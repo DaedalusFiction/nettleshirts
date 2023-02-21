@@ -17,6 +17,8 @@ export default function Home() {
                     </Grid>
                     <Grid item xs={12} md={7}>
                         <Image
+                            priority={false}
+                            unoptimized
                             width={2000}
                             height={1462}
                             src="/images/nettleHero.webp"
