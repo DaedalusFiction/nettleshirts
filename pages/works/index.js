@@ -4,6 +4,7 @@ import { Box, Container } from "@mui/system";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import ImageFadeIn from "../../components/general/ImageFadeIn";
 import theme from "../../styles/themes/theme";
 
 const works = [
@@ -264,13 +265,13 @@ const index = () => {
                                             height: "100%",
                                         }}
                                     >
-                                        <Image
+                                        <ImageFadeIn
                                             unoptimized
                                             src={work.src}
                                             height={work.imageHeight}
                                             width={work.imageWidth}
                                             alt={work.alt}
-                                        ></Image>
+                                        ></ImageFadeIn>
                                     </Box>
                                 </Grid>
                                 <Grid item xs={12}>

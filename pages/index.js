@@ -1,6 +1,8 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Fade, Grid, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import Image from "next/image";
+import { useState } from "react";
+import ImageFadeIn from "../components/general/ImageFadeIn";
 
 import Meta from "../components/home/Meta";
 
@@ -16,14 +18,14 @@ export default function Home() {
                         </Typography>
                     </Grid>
                     <Grid item xs={12} md={7}>
-                        <Image
-                            priority={false}
-                            unoptimized
-                            width={2000}
-                            height={1462}
-                            src="/images/nettleHero.webp"
-                            alt="flowers"
-                        />
+                        <Box>
+                            <ImageFadeIn
+                                height={1462}
+                                width={2000}
+                                src={"/images/nettleHero.webp"}
+                                alt={"shadow puppet flowers"}
+                            />
+                        </Box>
                     </Grid>
                     <Grid item xs={12} md={5}>
                         <Box

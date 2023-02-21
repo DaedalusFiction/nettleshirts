@@ -3,6 +3,7 @@ import { Button, Divider, Grid, Typography } from "@mui/material";
 import { Box, Container } from "@mui/system";
 import Link from "next/link";
 import React from "react";
+import ImageFadeIn from "../../components/general/ImageFadeIn";
 import NativeImage from "../../components/general/NativeImage";
 import SizedImage from "../../components/general/SizedImage";
 import Stripes from "../../components/layout/Stripes";
@@ -27,10 +28,11 @@ const index = () => {
                                 justifyContent: "center",
                             }}
                         >
-                            <NativeImage
-                                image={about.imageOne}
-                                url={about.imageOne.url}
-                                maxSize={600}
+                            <ImageFadeIn
+                                alt={about.imageOne.alt}
+                                src={about.imageOne.url}
+                                height={1333}
+                                width={2000}
                             />
                         </Box>
                     </Box>
