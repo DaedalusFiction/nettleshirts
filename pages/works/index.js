@@ -265,6 +265,7 @@ const index = () => {
                                         }}
                                     >
                                         <Image
+                                            unoptimized
                                             src={work.src}
                                             height={work.imageHeight}
                                             width={work.imageWidth}
