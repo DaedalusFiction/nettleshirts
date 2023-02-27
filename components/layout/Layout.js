@@ -14,7 +14,6 @@ const Layout = ({ children }) => {
             <Header />
             <Container
                 maxWidth="xl"
-                disableGutters
                 sx={{
                     position: "relative",
                 }}

@@ -223,6 +223,10 @@ const index = () => {
                                                 component="p"
                                                 sx={{
                                                     margin: ".1em 0 .35em 0",
+                                                    fontSize: {
+                                                        xs: "2rem",
+                                                        md: "3rem",
+                                                    },
                                                 }}
                                             >
                                                 {work.name}
