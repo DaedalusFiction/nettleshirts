@@ -1,4 +1,4 @@
-import { Box, Fade, Grid, Typography } from "@mui/material";
+import { Box, Divider, Fade, Grid, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import Image from "next/image";
 import { useState } from "react";
@@ -10,10 +10,10 @@ export default function Home() {
     return (
         <Container maxWidth="xl">
             <Meta />
-            <Container maxWidth="md" sx={{ padding: "10vh 0" }}>
+            <Container maxWidth="lg" sx={{ padding: "10vh 0" }}>
                 <Grid container columnSpacing={4} rowSpacing={6}>
                     <Grid item xs={12}>
-                        <Typography variant="h1">
+                        <Typography variant="h1" sx={{ textAlign: "center" }}>
                             Nettle Shirts Puppet Works
                         </Typography>
                     </Grid>
@@ -22,7 +22,8 @@ export default function Home() {
                             <ImageFadeIn
                                 height={1462}
                                 width={2000}
-                                src={"/images/nettleHero.webp"}
+                                maxSize={1000}
+                                src={"/images/nettleHero.JPG"}
                                 alt={"shadow puppet flowers"}
                             />
                         </Box>
@@ -39,7 +40,10 @@ export default function Home() {
                                 <Typography variant="h2">
                                     Abstract Landscape Puppetry
                                 </Typography>
-                                <br />
+                                <Divider
+                                    sx={{ margin: "1rem 0", maxWidth: "25rem" }}
+                                />
+
                                 <Typography>
                                     This would be a good place to tell people
                                     more about what you do, what people can
@@ -47,6 +51,21 @@ export default function Home() {
                                     are located, a bit about your history, when
                                     you were founded, who you collaborate with,
                                     stuff like that. If you were so inclined.
+                                </Typography>
+                                <br />
+                                <Typography>
+                                    For a more vertical image like the one to
+                                    the left, additional paragraphs would look
+                                    best. I can switch the image back to a more
+                                    horizontal one, just let me know, but I
+                                    think this one looks quite nice.
+                                </Typography>
+                                <br />
+                                <Typography>
+                                    In the final paragraph you can write
+                                    something about what people can get in
+                                    contact with you about, booking shows or
+                                    collaboration or whatever.
                                 </Typography>
                             </Box>
                         </Box>

@@ -33,6 +33,7 @@ const index = () => {
                                 src={about.imageOne.url}
                                 height={1333}
                                 width={2000}
+                                maxSize={2000}
                             />
                         </Box>
                     </Box>

@@ -22,7 +22,8 @@ let theme = createTheme({
             darkMuted: "#757575",
             light: "#fffceb",
             lightMuted: "#e6e6e6",
-            accent: "#7D1D3F",
+            // accent: "#7D1D3F", // maroon
+            accent: "#252121",
         },
         text: {
             primary: "#272D2D",
@@ -32,10 +33,14 @@ let theme = createTheme({
         },
     },
     font: {
-        primaryMenu: "Gruppo",
-        primary: "Raleway",
-        secondary: "EB Garamond",
-        accent: "Alex Brush",
+        // primaryMenu: "Gruppo",
+        primaryMenu: "Times New Roman",
+        // primary: "Raleway",
+        primary: "Times New Roman",
+        // secondary: "EB Garamond",
+        secondary: "Times New Roman",
+        // accent: "Alex Brush",
+        accent: "Times New Roman",
         // accent: "Satisfy",
     },
 });
