@@ -10,25 +10,37 @@ export default function Home() {
     return (
         <Container maxWidth="xl">
             <Meta />
-            <Container maxWidth="lg" sx={{ padding: "10vh 0" }}>
-                <Grid container columnSpacing={4} rowSpacing={6}>
+            <Container maxWidth="md" sx={{ padding: "10vh 0" }}>
+                <Grid container spacing={4}>
                     <Grid item xs={12}>
                         <Typography variant="h1" sx={{ textAlign: "center" }}>
                             Nettle Shirts Puppet Works
                         </Typography>
+                        <br />
+                        <Typography variant="h4" sx={{ textAlign: "center" }}>
+                            Abstract Landscape Puppetry
+                        </Typography>
+                        {/* <Divider sx={{ margin: "1rem auto", width: "15rem" }} /> */}
                     </Grid>
-                    <Grid item xs={12} md={7}>
-                        <Box>
-                            <ImageFadeIn
-                                height={1462}
-                                width={2000}
-                                maxSize={1000}
-                                src={"/images/nettleHero.JPG"}
-                                alt={"shadow puppet flowers"}
-                            />
-                        </Box>
+                    <Grid item xs={12}>
+                        <Container maxWidth="sm">
+                            <Box
+                                sx={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                }}
+                            >
+                                <ImageFadeIn
+                                    height={1462}
+                                    width={2000}
+                                    maxSize={1000}
+                                    src={"/images/nettleHero.JPG"}
+                                    alt={"shadow puppet flowers"}
+                                />
+                            </Box>
+                        </Container>
                     </Grid>
-                    <Grid item xs={12} md={5}>
+                    {/* <Grid item xs={12} md={5}>
                         <Box
                             sx={{
                                 height: "100%",
@@ -69,7 +81,7 @@ export default function Home() {
                                 </Typography>
                             </Box>
                         </Box>
-                    </Grid>
+                    </Grid> */}
                 </Grid>
             </Container>
         </Container>
