@@ -217,7 +217,12 @@ const index = () => {
                                         }}
                                     >
                                         <Box>
-                                            <Typography>{`${work.location}, ${work.date}`}</Typography>
+                                            <Typography>{`${work.location}, ${
+                                                work.date
+                                            } ${work.duration && "--"} ${
+                                                work.duration
+                                            }`}</Typography>
+
                                             <Typography
                                                 variant="h3"
                                                 component="p"
