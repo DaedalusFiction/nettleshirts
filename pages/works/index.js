@@ -27,7 +27,6 @@ const works = [
         date: "September 2022",
         description: "Solo Tour",
         location: "Multiple Locations",
-        duration: "6 months",
         synopsis:
             "I performed I Made A Solemn Vow To Break The Sidewalk at the Black Cherry Puppet Theater's September puppet slam, and then performed three shows each at Palmetto Street Puppets in Brooklyn, New York, at Fox Market in Montpelier, Vermont, and at a private home in Ithaca, New York.",
         src: "/images/eastCoastTour.webp",
@@ -87,7 +86,7 @@ const works = [
         location: "Piedmont Virginia Community College",
         duration: "20 minutes",
         synopsis:
-            " the story of trees in the Eastern woodlands communicating and sharing resources via underground mycelium, the fungal network that makes up the so-called “wood wide web”. The trees, a 12-foot pine trunk and a beech seedling, scroll by on the overhead projector while 3-D lit mycelium reaches out from the roots on the projector screen and interacts with luminary mushrooms in the foreground.",
+            "This piece tells the story of trees in the Eastern woodlands communicating and sharing resources via underground mycelium, the fungal network that makes up the so-called “wood wide web”. The trees, a 12-foot pine trunk and a beech seedling, scroll by on the overhead projector while 3-D lit mycelium reaches out from the roots on the projector screen and interacts with luminary mushrooms in the foreground.",
         src: "/images/Understory1.JPG",
         link: "",
         alt: "",
@@ -103,8 +102,8 @@ const works = [
         duration: "5 minutes",
         synopsis:
             "Created in the early months of quarantine, the sound recordings for this piece were recorded by each singer separately in Virginia, New York, and Vermont, and digitally compiled.",
-        src: "/images/Hills1.png",
-        link: "",
+        src: "/images/Hills2.webp",
+        link: "https://youtu.be/CcBpQ7uxWTU",
         alt: "",
         imageHeight: 1333,
         imageWidth: 1000,
@@ -168,10 +167,11 @@ const works = [
     {
         name: "Creation",
         date: "September 2018",
-        description: "Description forthcoming",
+        description: "Overhead projector shadow puppet show",
         location: "Charlottesville, Virginia",
         duration: "20 minutes",
-        synopsis: "Synopsis forthcoming",
+        synopsis:
+            "Using a-capella song and biblically-influenced poetic language, Creation presents a feminist and scientifically-accurate history of the universe from the beginning of time to the present moment, illustrated by a restrained palette of abstract shapes",
         src: "/images/Creation1.jpg",
         link: "",
         alt: "",
@@ -179,6 +179,48 @@ const works = [
         imageWidth: 1000,
     },
 
+    {
+        name: "Internship",
+        date: "Summer 2018",
+        description: "Paperhand Puppet Intervention Internship",
+        location: "Saxapahaw, North Carolina",
+        duration: "",
+        synopsis:
+            "Helped build their show In The Heart Of The Fire. Collaborated with fellow artists and assisted backstage.",
+        src: "/images/internship.webp",
+        link: "",
+        alt: "",
+        imageHeight: 600,
+        imageWidth: 1000,
+    },
+    {
+        name: "The Ocean, At Night, It Comforts Me",
+        date: "April 2018",
+        description: "Luminary puppet show performed at ShenFringe festival",
+        location: "Staunton, Virginia",
+        duration: "20 minutes",
+        synopsis:
+            "Internally illuminated paper maché sea creatures move hypnotically, and as authentically as we can make them, in this ballet-like wordless piece performed in darkness. Features such delights as “shrimp and nautilus fail once again to see one another” and “whelk fights off being eaten by seastar”. Original electronic score by Alex Christie. ",
+        src: "/images/ocean.webp",
+        link: "",
+        alt: "",
+        imageHeight: 600,
+        imageWidth: 1000,
+    },
+    {
+        name: "Parade Costumes",
+        date: "1996-2012",
+        description: "Frequent Participation",
+        location: "Olympia, Washington",
+        duration: "",
+        synopsis:
+            "I grew up participating regularly in the Procession of The Species in Olympia, Washington. Pictured is a to-scale costume of a Western skunk cabbage flower, May 2011.",
+        src: "/images/parade.webp",
+        link: "",
+        alt: "",
+        imageHeight: 600,
+        imageWidth: 1000,
+    },
     // {
     //     name: "",
     //     date: "",
@@ -219,7 +261,7 @@ const index = () => {
                                         <Box>
                                             <Typography>{`${work.location}, ${
                                                 work.date
-                                            } ${work.duration && "--"} ${
+                                            } ${work.duration && "-"} ${
                                                 work.duration
                                             }`}</Typography>
 
