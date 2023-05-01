@@ -1,11 +1,8 @@
-import { ArrowRightAlt } from "@mui/icons-material";
 import { Divider, Grid, Typography } from "@mui/material";
 import { Box, Container } from "@mui/system";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import ImageFadeIn from "../../components/general/ImageFadeIn";
-import theme from "../../styles/themes/theme";
 
 const works = [
     {
@@ -16,7 +13,7 @@ const works = [
         duration: "12 minutes",
         synopsis:
             "Indigo, a 3 foot bunraku-style puppet with three puppeteers, goes for a walk in the woods, and after much searching, happens upon a bright blue indigo milk-cap mushroom. In real life, indigo milk-cap mushrooms can be occasionally found in the wooded area where this piece was performed. Original score by Luke Dahl.",
-        src: "/images/indigo1.JPG",
+        src: "/images/indigo1.webp",
         link: "https://cvillelight.org",
         alt: "alt text for image",
         imageHeight: 875,
@@ -58,7 +55,7 @@ const works = [
         duration: "",
         synopsis:
             "I displayed various backgrounds on an overhead projector, and invited audience members to make up their own stories with an assortment of shadow puppets. Raccoons riding aquatic bicycles, flying fish, and disastrous tea parties ensued.",
-        src: "/images/ILoveTheWorld1.JPG",
+        src: "/images/ILoveTheWorld1.webp",
         link: "",
         alt: "shadow puppets",
         imageHeight: 3200,
@@ -72,7 +69,7 @@ const works = [
         duration: "9 minutes",
         synopsis:
             "This life-cycle of a dandelion, a European plant, serves as a metaphor for how to be a European-descended American and disrupt the oppressive structures of our society. The film version includes old-fashioned editing-based special effects. Original vocal score by Miranda Elliott-Rader, Heidi Bird, and Julia Gentlestrength.",
-        src: "/images/dandelion.JPG",
+        src: "/images/dandelion.webp",
         link: "https://youtu.be/1I4vIjgiLBg",
         alt: "dandelion weed",
         imageHeight: 750,
@@ -87,7 +84,7 @@ const works = [
         duration: "20 minutes",
         synopsis:
             "This piece tells the story of trees in the Eastern woodlands communicating and sharing resources via underground mycelium, the fungal network that makes up the so-called “wood wide web”. The trees, a 12-foot pine trunk and a beech seedling, scroll by on the overhead projector while 3-D lit mycelium reaches out from the roots on the projector screen and interacts with luminary mushrooms in the foreground.",
-        src: "/images/Understory1.JPG",
+        src: "/images/Understory1.webp",
         link: "",
         alt: "",
         imageHeight: 1333,
@@ -116,7 +113,7 @@ const works = [
         duration: "",
         synopsis:
             "Performed Creation (2018) as an opening act for performer Rae Red.",
-        src: "/images/Radica1.jpg",
+        src: "/images/Radica1.webp",
         link: "",
         alt: "",
         imageHeight: 600,
@@ -130,7 +127,7 @@ const works = [
         duration: "25 minutes",
         synopsis:
             "This abstract piece re-interprets a solo piano piece, Shadow by Rebecca Saunders, for two projectors, a slide projector representing the right hand and an overhead projector representing the left hand. Inspired by the original piece’s consonant chords that slowly reveal themselves out of dissonance, the overhead projector is darkened to almost black such that it cannot be seen when the slide projector is on, and when the slide projector is covered, cut paper images of solid black on the dark background slowly appear as the audience’s eyes adjust.",
-        src: "/images/Shadow1.jpg",
+        src: "/images/Shadow1.webp",
         link: "",
         alt: "",
         imageHeight: 600,
@@ -144,7 +141,7 @@ const works = [
         duration: "10 minutes",
         synopsis:
             "Illustrating an original song sung live, this piece celebrates the tenacity of black locust trees and carpenter bees. Features a growing tree and a face with blinking eyes. ",
-        src: "/images/Angels1.JPG",
+        src: "/images/Angels1.webp",
         link: "",
         alt: "",
         imageHeight: 1333,
@@ -158,7 +155,7 @@ const works = [
         duration: "10 minutes",
         synopsis:
             "A colorful overhead projector piece, The Phosphorus Cycle illustrates how phosphorus moves through the world with narration and song.",
-        src: "/images/Phos1.jpg",
+        src: "/images/Phos1.webp",
         link: "",
         alt: "",
         imageHeight: 600,
@@ -172,7 +169,7 @@ const works = [
         duration: "20 minutes",
         synopsis:
             "Using a-capella song and biblically-influenced poetic language, Creation presents a feminist and scientifically-accurate history of the universe from the beginning of time to the present moment, illustrated by a restrained palette of abstract shapes",
-        src: "/images/Creation1.jpg",
+        src: "/images/Creation1.webp",
         link: "",
         alt: "",
         imageHeight: 600,

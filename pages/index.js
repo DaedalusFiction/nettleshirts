@@ -34,7 +34,7 @@ export default function Home() {
                                     height={1462}
                                     width={2000}
                                     maxSize={1000}
-                                    src={"/images/nettleHero.JPG"}
+                                    src={"/images/nettleHero.webp"}
                                     alt={"shadow puppet flowers"}
                                 />
                             </Box>

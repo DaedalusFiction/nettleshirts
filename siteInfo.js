@@ -213,7 +213,7 @@ const personalItems = [
 ];
 
 const contactConfig = {
-    website: "Portfolio",
+    website: "Miranda",
     category: "contact",
     fields: [
         { name: "Name", type: "text", value: "" },
