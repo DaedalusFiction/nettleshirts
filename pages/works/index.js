@@ -23,6 +23,7 @@ const works = [
         name: "East Coast Tour",
         date: "September 2022",
         description: "Solo Tour",
+        duration: "",
         location: "Multiple Locations",
         synopsis:
             "I performed I Made A Solemn Vow To Break The Sidewalk at the Black Cherry Puppet Theater's September puppet slam, and then performed three shows each at Palmetto Street Puppets in Brooklyn, New York, at Fox Market in Montpelier, Vermont, and at a private home in Ithaca, New York.",
@@ -185,7 +186,7 @@ const works = [
         synopsis:
             "Helped build their show In The Heart Of The Fire. Collaborated with fellow artists and assisted backstage.",
         src: "/images/internship.webp",
-        link: "",
+        link: "https://paperhand.org",
         alt: "",
         imageHeight: 600,
         imageWidth: 1000,
