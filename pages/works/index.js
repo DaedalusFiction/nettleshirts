@@ -6,6 +6,34 @@ import ImageFadeIn from "../../components/general/ImageFadeIn";
 
 const works = [
     {
+        name: "The Lot",
+        date: "July 2023",
+        description: "Suitcase Show",
+        location: "Charlottesville VA",
+        duration: "22 minutes",
+        synopsis:
+            "A parking lot opens out of a suitcase, and a small figure arrives with broom and dustpan to sweep it up. Based on my real-life experiences sweeping the parking lot at Bodo’s Bagels, as well as loosely based on the Lushoot",
+        src: "/images/suitcase1.webp",
+        link: "",
+        alt: "alt text for image",
+        imageHeight: 875,
+        imageWidth: 500,
+    },
+    {
+        name: "A Modest Puppetry Festival",
+        date: "July 2023",
+        description: "Festival",
+        location: "Visible Records, Charlottesville VA",
+        duration: "Multiple performances",
+        synopsis:
+            "I produced a one-night festival of puppet works for adults on July 30th, 2023. Participants included Charlottesville artists Molly Hickman, Dawn Schimke, Ophelia, and Yessirov, and visiting artists Audrey DuBois (Philadelphia) and Rae Red (Baltimore). Similar in format to a puppet slam but with longer performances allowed",
+        src: "/images/modest1.webp",
+        link: "",
+        alt: "alt text for image",
+        imageHeight: 875,
+        imageWidth: 500,
+    },
+    {
         name: "Indigo and the Milk Cap",
         date: "December 2022",
         description: "Luminary puppet show as part of Let There Be Light",
