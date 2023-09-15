@@ -38,6 +38,28 @@ export default function Home() {
                                     alt={"shadow puppet flowers"}
                                 />
                             </Box>
+                            <Typography
+                                variant="h4"
+                                sx={{ textAlign: "center", marginTop: "3rem" }}
+                            >
+                                Praise for <em>The Lot</em>:
+                            </Typography>
+                            <Typography
+                                sx={{
+                                    textAlign: "center",
+                                    fontSize: "1.25rem",
+                                    margin: ".5rem 0",
+                                }}
+                            >
+                                “Possibly the best performance I have ever seen,
+                                of any kind.”
+                            </Typography>
+                            <Typography
+                                sx={{ textAlign: "center", fontSize: ".75rem" }}
+                            >
+                                &mdash;Will Grover, a person who has seen many
+                                performances
+                            </Typography>
                         </Container>
                     </Grid>
                     {/* <Grid item xs={12} md={5}>
