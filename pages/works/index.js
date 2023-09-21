@@ -12,7 +12,7 @@ const works = [
         location: "Charlottesville VA",
         duration: "22 minutes",
         synopsis:
-            "A parking lot opens out of a suitcase, and a small figure arrives with broom and dustpan to sweep it up. Based on my real-life experiences sweeping the parking lot at Bodo’s Bagels, as well as loosely based on the Lushoot story “Lady Louse Lived There” as told by Vi Hilbert. Music and sound effects by Yessirov.",
+            "A parking lot opens out of a suitcase, and a small figure arrives with broom and dustpan to sweep it up. Based on my real-life experiences sweeping the parking lot at Bodo’s Bagels, as well as loosely based on the Lushootseed story “Lady Louse Lived There” as told by Vi Hilbert. Music and sound effects by Yessirov.",
         src: "/images/suitcase1.webp",
         link: "",
         alt: "alt text for image",
