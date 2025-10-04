@@ -40,7 +40,7 @@ const works = [
     location: "Charlottesville, VA and Staunton, VA",
     duration: "50 minutes",
     synopsis:
-      "Nettle Shirts Puppet Works’ eponymous show, “The Nettle Shirts”, premiered in Charlottesville and Staunton with two sold-out performances. Miranda Elliott-Rader collaborated with Charlottesville artist Jess Walters (www.jesswalters.com) to write and design this 50 minute shadow puppetry piece. Part fairy tale, part fiber arts tutorial, and part Deaf lesbian romance, The Nettle Shirts reimagines an old Grimms brothers story in new liberatory ways. The richly visually textured performance includes four ASL actors, live analog captioning, live mountain dulcimer accompaniment, and puppets made of real stinging nettles. ",
+      "Nettle Shirts Puppet Works’ eponymous show, “The Nettle Shirts”, premiered in Charlottesville and Staunton with two sold-out performances. Miranda Elliott-Rader collaborated with Charlottesville artist Jess Walters (www.jesswaltersart.com) to write and design this 50 minute shadow puppetry piece. Part fairy tale, part fiber arts tutorial, and part Deaf lesbian romance, The Nettle Shirts reimagines an old Grimms brothers story in new liberatory ways. The richly visually textured performance includes four ASL actors, live analog captioning, live mountain dulcimer accompaniment, and puppets made of real stinging nettles. ",
     src: "/images/nettleShirts.webp",
     link: "",
     alt: "",
